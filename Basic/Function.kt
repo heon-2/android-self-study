@@ -16,7 +16,7 @@ fun test(a : Int, b: Int = 3 , c : Int = 4 ) : Int{
     return a+b
 }
 
-// 이런식으로 축약해서 리턴도 가능함. single expression
+// 이런식으로 축약해서 리턴도 가능함. single expressiond
 fun time(a: Int, b:Int) = a * b
 
 // 이런 식으로 마지막에 , 를 두는 경우도 있음. 이래도 컴파일러 에러가 나지 않음.
